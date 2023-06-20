@@ -1,0 +1,42 @@
+.list{
+    width: 320px;
+    margin: 32px auto;
+    
+}
+.item{
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+.item:not(:last-child){
+    margin-bottom: 12px;
+}
+.status{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.status.green{
+
+    background-color: rgb(8, 204, 5);
+}
+.status.red{
+
+    background-color: red;
+}
+
+.avatar{
+    width: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.name{
+    color: #7b7b7b;
+    font-weight: 700;
+    font-size: 18px;
+}

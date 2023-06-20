@@ -1,0 +1,17 @@
+.table{
+    width: 50%;
+    margin: 32px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.thead{
+    background-color: #7b7b7b;
+    color: white;
+    
+}
+.tbody {
+    text-align: center;
+}
+.tbody tr:nth-child(odd) {
+    background: #f9f9f9;
+  }
+
